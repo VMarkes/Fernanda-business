@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+}
+
+#navbar-toggler {
+    width: 50px;
+    height: auto;
+    margin-left: 15px;
+    border-style: none;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(218,165,32, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#navbar {
+    position: fixed;
+    margin-top: 20px;
+    width: 100%;
+    z-index: 1;
+}
+
+#logo-link {
+    color: goldenrod;
+}
+
+#nav-link {
+    color: goldenrod;
+    text-align: center;
+}
+
+#nav-link:hover {
+    color: white;
+    background-color: goldenrod;
+}
+
+#contact {
+    margin-right: 50px;
+}
+
+#first-content {
+    width: 100%;
+    height: 800px;
+    background-image: url(bc-full-size.jpg);
+    background-repeat: no-repeat;
+}
+
+#btn-content {
+    width: 100%;
+    padding: 200px 0px 0px 30px;
+}
+
+#btn {
+    transition: all .3s ease-in-out;
+}
+
+#btn:hover {
+    transform: scale(0.9);
+}
+
+#btn-cards {
+    border: none;
+    background-color: goldenrod;
+}
+
+#about-content {
+    width: 100%;
+    height: auto;
+    padding: 80px;
+    background-color: goldenrod;
+}
+
+#about {
+    width: 100%;
+}
+
+#text-about {
+}
+
+#text-about>p {
+    font-size: 20px;
+}
+
+#text-about>h2 {
+    font-family: serif;
+}
+
+#social-media {
+    width: 100%;
+}
+
+#social-media>img:hover {
+    background-image: url(87390%20hover.png);
+}
+
+@media only screen and (max-width: 1280px) {
+    #first-content {
+        width: 100%;
+        height: auto;
+        background-image: url(1280x800.jpg);
+        background-repeat: no-repeat;
+    }
+}
